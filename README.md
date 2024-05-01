@@ -8,6 +8,6 @@ A Password generator, simple yet useful.
 
 ## Setup
 1. Download the source code of this repository
-2. Run the execute.bat file
-3. Enter a length between 9 and 150 and generate a few
+2. Run the `execute.bat` file
+3. Enter a length between `9` and `150` and start generating
 4. Feel free to copy and use one that you like
