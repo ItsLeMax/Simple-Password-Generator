@@ -1,7 +1,7 @@
 const validLetters = "abcdefghijklmnopqrstuvwxyz1234567890+#,.-<>;:_'*^";
 const intendedLength = process.argv[2] || 32;
 
-const length = {
+const len = {
     maximum: 150,
     minimum: 9
 }
@@ -11,28 +11,27 @@ const colors = {
     reset: "\x1b[0m"
 };
 
-const reasoning = {
-    de_DE: "würden den Sinn des Skripts zerstören: Ein starkes Passwort zu generieren.",
-    en_US: "would defeat the purpose of this script: to generate a powerful password."
-}
-
 if (isNaN(intendedLength)) {
     console.error(colors.error + "Only Numbers are allowed!", "Nur Nummern sind erlaubt!" + colors.reset);
     return;
 }
 
-if (intendedLength > length.maximum) {
+if (intendedLength > len.maximum) {
     console.error(
-        colors.error + `Better choose ${length.maximum} signs or less! More ${reasoning.en_US}`,
-        `Wähle besser ${length.maximum} oder weniger Zeichen! Weitere ${reasoning.de_DE}` + colors.reset
+        colors.error +
+        `Better choose ${len.maximum} signs or less!`,
+        `Wähle besser ${len.maximum} oder weniger Zeichen!` +
+        colors.reset
     );
     return;
 }
 
-if (intendedLength < length.minimum) {
+if (intendedLength < len.minimum) {
     console.error(
-        colors.error + `Better choose ${length.minimum} signs or more! Less ${reasoning.en_US}`,
-        `Wähle besser ${length.minimum} oder mehr Zeichen! Weniger ${reasoning.de_DE}` + colors.reset
+        colors.error +
+        `Better choose ${len.minimum} signs or more! Less would defeat the purpose of this script: to generate a powerful password.`,
+        `Wähle besser ${len.minimum} oder mehr Zeichen! Weniger würden den Sinn des Skripts zerstören: Ein starkes Passwort zu generieren.` +
+        colors.reset
     );
     return;
 }
