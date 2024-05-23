@@ -1,5 +1,5 @@
 # Simple Password Generator
-A Password generator, simple yet useful.
+Generates a powerful Password with a lightweight JavaScript Script
 
 ## Requirements
 - Node (executable [here](https://nodejs.org/en/download/))
