@@ -1,5 +1,6 @@
 # Simple Password Generator
-Generates a powerful Password with a lightweight JavaScript Script
+Generates a powerful Password with a lightweight JavaScript Script\
+![console](https://github.com/ItsLeMax/Simple-Password-Generator/assets/80857459/4bd9dbf8-cf0f-47c3-b23f-12632864f78e)
 
 ## Requirements
 - Node (executable [here](https://nodejs.org/en/download/))
