@@ -1,9 +1,9 @@
-const validLetters = "abcdefghijklmnopqrstuvwxyz1234567890+#,.-<>;:_'*^";
+const validLetters = require("../run/config.json").signs;
 const intendedLength = process.argv[2] || 32;
 
 const len = {
-    maximum: 150,
-    minimum: 9
+    maximum: 237,
+    minimum: 6
 }
 
 const colors = {
@@ -12,14 +12,19 @@ const colors = {
 };
 
 if (isNaN(intendedLength)) {
-    console.error(colors.error + "Only Numbers are allowed!", "Nur Nummern sind erlaubt!" + colors.reset);
+    console.error(
+        colors.error +
+        "Only Numbers are allowed!" + "\n" +
+        "Nur Nummern sind erlaubt!" +
+        colors.reset
+    );
     return;
 }
 
 if (intendedLength > len.maximum) {
     console.error(
         colors.error +
-        `Better choose ${len.maximum} signs or less!`,
+        `Better choose ${len.maximum} signs or less!` + "\n" +
         `Wähle besser ${len.maximum} oder weniger Zeichen!` +
         colors.reset
     );
@@ -29,7 +34,7 @@ if (intendedLength > len.maximum) {
 if (intendedLength < len.minimum) {
     console.error(
         colors.error +
-        `Better choose ${len.minimum} signs or more! Less would defeat the purpose of this script: to generate a powerful password.`,
+        `Better choose ${len.minimum} signs or more! Less would defeat the purpose of this script: to generate a powerful password.` + "\n" +
         `Wähle besser ${len.minimum} oder mehr Zeichen! Weniger würden den Sinn des Skripts zerstören: Ein starkes Passwort zu generieren.` +
         colors.reset
     );
