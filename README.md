@@ -12,5 +12,5 @@ Generates a powerful Password with a lightweight JavaScript Script\
 ![download](https://github.com/ItsLeMax/Simple-Password-Generator/assets/80857459/3ca81cf2-d988-43ec-98d3-1f9de159dda7)
 2. Extract the content
 3. Run the `execute.bat` file
-4. Enter a length between `9` and `150` and start generating
+4. Enter a length and press enter
 5. Feel free to copy and use one that you like
