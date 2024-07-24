@@ -8,7 +8,7 @@ Generates a powerful password with a lightweight script
 - Alternatives may work aswell.
 
 ## Setup
-1. Download the source code by clicking on `<> Code` & `Download ZIP` and extract the content
+1. Download the source code by clicking on `<> Code` & `Download ZIP` and extract its content
 ![download](https://github.com/ItsLeMax/Simple-Password-Generator/assets/80857459/3ca81cf2-d988-43ec-98d3-1f9de159dda7)
 2. (Optional) Open the `config.json` inside `/run/` and choose valid signs for the password
 3. Run the `execute.bat` file
