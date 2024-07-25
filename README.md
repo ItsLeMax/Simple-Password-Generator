@@ -3,9 +3,11 @@ Generates a powerful password with a lightweight script
 ![console](https://github.com/ItsLeMax/Simple-Password-Generator/assets/80857459/4bd9dbf8-cf0f-47c3-b23f-12632864f78e)
 
 ## Requirements
+> ...that may have working alternatives:
 - Node (executable [here](https://nodejs.org/en/download/))
 - Windows
-- Alternatives may work aswell.
+> ...that has working alternatives:
+- 7-Zip (executable [here](https://7-zip.de/download.html))
 
 ## Setup
 1. Download the source code by clicking on `<> Code` & `Download ZIP` and extract its content
