@@ -4,10 +4,10 @@ Generates a powerful password with a lightweight script
 
 ## Requirements
 > ...that may have working alternatives:
-- Node (executable [here](https://nodejs.org/en/download/))
+- [Node](https://nodejs.org/en/download/prebuilt-installer)
 - Windows
 > ...that have working alternatives:
-- 7-Zip (executable [here](https://7-zip.de/download.html))
+- [7-Zip](https://7-zip.de/download.html)
 
 ## Setup
 1. Download the source code by clicking on `<> Code` & `Download ZIP` and extract its content
