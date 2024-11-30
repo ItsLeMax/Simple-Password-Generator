@@ -22,4 +22,4 @@ Generates a powerful password with a lightweight script
 4. Enter a length and press enter
 ![1 0 0-length](https://github.com/user-attachments/assets/b99f5981-0ed4-4d67-bcac-1cf802817d97)
 5. Feel free to copy and use passwords that you like
-![1 0 0-copy](https://github.com/user-attachments/assets/dada45d9-c466-4d74-9e69-afcf7a420fb8)
+![1 0 0-copy](https://github.com/user-attachments/assets/cc48598b-abe2-4814-b1db-247d79bb28f0)
