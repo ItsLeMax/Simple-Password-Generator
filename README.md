@@ -15,7 +15,7 @@ Generates a powerful password with a lightweight script
 
 1. Download the source code by clicking on `<> Code` & `Download ZIP` and extract its content.
 ![download](https://github.com/ItsLeMax/Simple-Password-Generator/assets/80857459/3ca81cf2-d988-43ec-98d3-1f9de159dda7)
-2. (Optional) Open the `config.json` inside `/run/` and choose valid signs for the password.
+2. (Optional) Open the `config.json` inside `/run/` and choose valid characters for the password.
 ![1 0 0-config](https://github.com/user-attachments/assets/2b58ee28-6229-4ca8-a98f-3ec579b88905)
 3. Run the `execute.bat` file.\
 ![1 0 0-execute](https://github.com/user-attachments/assets/48ba9575-e758-4444-8f8d-074350242907)
